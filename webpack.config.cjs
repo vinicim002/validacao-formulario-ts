@@ -1,16 +1,20 @@
 const path = require('path');
 
 module.exports = {
-  entry: './src/index.ts',
+  entry: './src/main.ts',
   module: {
     rules: [
       {
         test: /\.tsx?$/,
-        use: 'ts-loader',
         exclude: /node_modules/,
-        options: {
-          configFile: 'tsconfig.frontend.json',
-        },
+        use: [
+          {
+            loader: 'ts-loader',
+            options: {
+              configFile: 'tsconfig.frontend.json',
+            },
+          },
+        ],
       },
     ],
   },
@@ -21,4 +25,5 @@ module.exports = {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'frontend', 'assets', 'js'),
   },
+  mode: 'development',
 };
