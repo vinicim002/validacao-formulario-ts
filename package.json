@@ -5,7 +5,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build:frontend": "webpack -w",
-    "build:backend": "tsc"
+    "build:backend": "tsc",
+    "tailwind": "npx @tailwindcss/cli -i ./frontend/assets/styles/styles.css -o ./frontend/assets/styles/output.css --watch"
   },
   "type": "module",
   "repository": {
@@ -30,5 +31,9 @@
     "typescript-eslint": "^8.46.2",
     "webpack": "^5.102.1",
     "webpack-cli": "^6.0.1"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.16",
+    "tailwindcss": "^4.1.16"
   }
 }
