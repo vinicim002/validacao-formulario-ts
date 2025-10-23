@@ -159,3 +159,6 @@
   }
 }
 @layer utilities;
+body {
+  background-color: red;
+}
