@@ -1,0 +1,41 @@
+{
+  "window.zoomLevel": 1,
+  "breadcrumbs.enabled": true,
+  "editor.fontSize": 14,
+  "debug.console.fontSize": 14,
+  "terminal.integrated.fontSize": 14,
+  "editor.glyphMargin": false,
+  "workbench.activityBar.location": "default",
+  "editor.lineNumbers": "on",
+  "files.eol": "\n",
+  "workbench.editor.labelFormat": "short",
+  "editor.tabSize": 2,
+  "explorer.compactFolders": false,
+
+  // 🧹 PRETTIER
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "prettier.requireConfig": true,
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "all",
+  "prettier.semi": true,
+  "prettier.printWidth": 80,
+
+  // ⚙️ ESLINT + TYPESCRIPT
+  "eslint.validate": ["typescript", "javascript"],
+  "eslint.alwaysShowStatus": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit",
+    "source.fixAll.eslint": "explicit"
+  },
+
+  // 🧩 MISC
+  "files.associations": {
+    "*.ts": "typescript"
+  },
+
+  "code-runner.executorMap": {
+    "typescript": "npx ts-node --files"
+  },
+  "code-runner.runInTerminal": true
+}
