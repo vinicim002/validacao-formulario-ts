@@ -1,13 +1,146 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="/frontend/assets/styles/output.css">
-</head>
-<body>
-  
-  <script src="/frontend/assets/js/main.js"></script>
-</body>
+<!doctype html>
+<html lang="en" class="min-h-screen">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/frontend/assets/styles/output.css" />
+  </head>
+  <body class="flex justify-center items-center m-auto min-h-screen px-40 py-28">
+    <main class="flex flex-row justify-between gap-x-28 w-full">
+      <!--Container da esquerda-->
+      <div class="main-container-esquerda w-1/2">
+        <img src="/frontend/assets/img/img.png" alt="" />
+      </div>
+      <!--Container da direita-->
+      <div class="main-container-direita w-1/2">
+        <!--Logo-->
+        <div class="flex flex-row items-center gap-x-6 pb-16">
+          <img src="/frontend/assets/img/logo.png" alt="logo" />
+          <p class="text-2xl font-medium">&lt;DEVCOFFEE&gt;</p>
+        </div>
+
+        <h1 class="text-6xl text-orange-950 pb-12">Create an account</h1>
+
+        <form action="#" class="flex flex-col gap-y-6">
+          <!--Input Nome-->
+          <div class="container-input">
+            <div
+              class="inputs flex flex-col gap-y-3 bg-gray-900 px-6 py-2 rounded-3xl"
+            >
+              <label for="inputName" class="text-gray-950">Name</label>
+              <input
+                type="text"
+                placeholder="Enter your name"
+                required
+                class="outline-none text-base"
+                id="inputName"
+              />
+            </div>
+            <span class="msg py-3 px-2 text-red-500"
+              >Mensagem de erro ou aviso</span
+            >
+          </div>
+          <!--Input Email-->
+          <div class="container-input">
+            <div
+              class="inputs flex flex-col gap-y-3 bg-gray-900 px-6 py-2 rounded-3xl"
+            >
+              <label for="inputEmail" class="text-gray-950">Email</label>
+              <input
+                type="email"
+                placeholder="Enter your email"
+                required
+                class="outline-none text-base"
+                id="inputEmail"
+              />
+            </div>
+            <span class="msg py-3 px-2 text-red-500"
+              >Mensagem de erro ou aviso</span
+            >
+          </div>
+          <!--Input Confirm Email-->
+          <div class="container-input">
+            <div
+              class="inputs flex flex-col gap-y-3 bg-gray-900 px-6 py-2 rounded-3xl"
+            >
+              <label for="inputConfirmEmail" class="text-gray-950">Email</label>
+              <input
+                type="email"
+                placeholder="Confirm your email"
+                required
+                class="outline-none text-base"
+                id="inputConfirmEmail"
+              />
+            </div>
+            <span class="msg py-3 px-2 text-red-500"
+              >Mensagem de erro ou aviso</span
+            >
+          </div>
+          <div class="container-input flex flex-row gap-x-5">
+            <!-- Senha -->
+            <div class="w-1/2">
+              <div
+                class="inputs flex flex-col gap-y-3 bg-gray-900 px-6 py-2 rounded-3xl"
+              >
+                <label for="inputPassword" class="text-gray-950"
+                  >Password</label
+                >
+                <input
+                  type="password"
+                  placeholder="Enter your password"
+                  required
+                  class="outline-none text-base"
+                  id="inputPassword"
+                />
+              </div>
+              <span class="msg py-3 px-2 text-red-500"
+                >Mensagem de erro ou aviso</span
+              >
+            </div>
+
+            <!-- Confirmar Senha -->
+            <div class="w-1/2">
+              <div
+                class="inputs flex flex-col gap-y-3 bg-gray-900 px-6 py-2 rounded-3xl"
+              >
+                <label for="inputConfirmPassword" class="text-gray-950"
+                  >Confirm Password</label
+                >
+                <input
+                  type="password"
+                  placeholder="Confirm your password"
+                  required
+                  class="outline-none text-base"
+                  id="inputConfirmPassword"
+                />
+              </div>
+              <span class="msg py-3 px-2 text-red-500"
+                >Mensagem de erro ou aviso</span
+              >
+            </div>
+          </div>
+
+          <!--Btns-->
+          <div class="btns flex flex-row gap-x-5 pt-12">
+            <button
+              type="submit"
+              class="bg-orange-950 w-1/2 h-16 cursor-pointer rounded-3xl text-white-950"
+              id="btnRegister"
+            >
+              Register
+            </button>
+            <button
+              type="button"
+              class="bg-none border  border-gray-950 w-1/2 h-16 cursor-pointer rounded-3xl text-orange-950"
+              id="btnSingnIn"
+            >
+              Sign in
+            </button>
+          </div>
+        </form>
+      </div>
+    </main>
+    <script src="/frontend/assets/js/main.js"></script>
+  </body>
 </html>
