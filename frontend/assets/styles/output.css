@@ -309,7 +309,7 @@ html {
   font-family: 'Inter', sans-serif;
 }
 .msg {
-  display: block;
+  display: none;
 }
 @property --tw-border-style {
   syntax: "*";
