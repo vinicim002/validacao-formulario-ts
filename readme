@@ -1,0 +1,89 @@
+# Validação de Formulário em TypeScript
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Webpack](https://img.shields.io/badge/Webpack-8DD6F9?style=for-the-badge&logo=webpack&logoColor=black)
+![Validator](https://img.shields.io/badge/Validator.js-FFDD00?style=for-the-badge&logo=javascript&logoColor=black)
+
+> Projeto de validação de formulário com TypeScript, TailwindCSS, Validator.js e Webpack.  
+
+O projeto apresenta um **formulário de registro** com validação de campos de entrada (nome, email e senha) e estilização moderna com TailwindCSS.
+
+---
+
+## 💻 Tecnologias utilizadas
+
+- **TypeScript** - tipagem estática e código organizado
+- **TailwindCSS** - framework CSS utilitário
+- **Webpack** - bundler de módulos
+- **Validator.js** - validação de dados do formulário
+- **MiniCssExtractPlugin** e **CopyWebpackPlugin** - para gerar CSS e copiar assets
+- **HTML5 e CSS3** - estrutura e layout responsivo
+
+---
+
+## 🚀 Como rodar o projeto
+
+### Pré-requisitos
+
+- Node.js >= v22.17.0
+- npm >= 10.9.2
+
+---
+
+### Passo a passo
+
+1. Clone o repositório:
+
+```bash
+git clone https://github.com/vinicim002/validacao-formulario-ts.git
+cd validacao-formulario-ts
+
+---
+
+Instale as dependências:
+
+npm install
+
+Gere o build (compila TS, Tailwind e copia assets):
+
+npm run build
+
+Rode localmente com watch (desenvolvimento):
+
+npm run dev
+
+Abra o dist/index.html no navegador para testar.
+
+🌐 Deploy no GitHub Pages
+
+https://vinicim002.github.io/validacao-formulario-ts/
+
+📝 Funcionalidades
+
+Validação de campos de texto e email
+
+Validação de confirmação de email
+
+Validação de senha e confirmação de senha
+
+Layout responsivo com TailwindCSS
+
+Estrutura modular em TypeScript
+
+Bundling e otimização com Webpack
+
+🎨 Preview
+
+🛠️ Próximos passos
+
+Adicionar tema escuro
+
+Implementar parte mobile
+
+Transformar em SPA com framework moderno (Angular)
+
+📄 Licença
+
+Este projeto está licenciado sob a MIT License.
+Veja o arquivo LICENSE para mais detalhes.
