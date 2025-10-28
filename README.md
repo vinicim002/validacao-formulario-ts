@@ -2,7 +2,7 @@
 
 ![Design preview do Formulário de Registro](frontend/assets/img/preview.png)
 
-## Welcome! 👋
+## Bem-vindo! 👋
 
 Bem-vindo ao projeto de validação de formulário com **TypeScript**, **TailwindCSS**, **Validator.js** e **Webpack**.
 
@@ -40,37 +40,35 @@ Os usuários podem:
 ```bash
 git clone https://github.com/vinicim002/validacao-formulario-ts.git
 cd validacao-formulario-ts
+```
 
 2. Instale as dependências:
 
+```bash
 npm install
+```
 
 3. Compile o projeto (TypeScript, Tailwind e cópia de assets):
 
+```bash
 npm run build
+```
 
 4. Rode em modo desenvolvimento com watch:
 
+```bash
 npm run dev
+```
 
 5. Abra o arquivo dist/index.html no navegador para testar.
 
----
+## Deploy
 
-# Deploy
+O projeto está publicado no GitHub Pages:  
+[https://vinicim002.github.io/validacao-formulario-ts/](https://vinicim002.github.io/validacao-formulario-ts/)
 
-### O projeto está publicado no GitHub Pages:
-https://vinicim002.github.io/validacao-formulario-ts/
+## Próximos passos
 
-Próximos passos
-
-Adicionar tema escuro
-
-Implementar versão mobile otimizada
-
-Transformar em SPA com Angular ou outro framework moderno
-
-Licença
-
-Este projeto está licenciado sob a MIT License.
-```
+- Adicionar tema escuro
+- Implementar versão mobile otimizada
+- Transformar em SPA com Angular ou outro framework moderno
