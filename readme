@@ -5,7 +5,7 @@
 ![Webpack](https://img.shields.io/badge/Webpack-8DD6F9?style=for-the-badge&logo=webpack&logoColor=black)
 ![Validator](https://img.shields.io/badge/Validator.js-FFDD00?style=for-the-badge&logo=javascript&logoColor=black)
 
-> Projeto de validação de formulário com TypeScript, TailwindCSS, Validator.js e Webpack.  
+> Projeto de validação de formulário com TypeScript, TailwindCSS, Validator.js e Webpack.
 
 O projeto apresenta um **formulário de registro** com validação de campos de entrada (nome, email e senha) e estilização moderna com TailwindCSS.
 
@@ -74,6 +74,7 @@ Estrutura modular em TypeScript
 Bundling e otimização com Webpack
 
 🎨 Preview
+![Preview do Formulário](https://github.com/vinicim002/validacao-formulario-ts/blob/main/dist/img/preview.png)
 
 🛠️ Próximos passos
 
@@ -87,3 +88,4 @@ Transformar em SPA com framework moderno (Angular)
 
 Este projeto está licenciado sob a MIT License.
 Veja o arquivo LICENSE para mais detalhes.
+```
